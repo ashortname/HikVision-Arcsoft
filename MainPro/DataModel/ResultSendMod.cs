@@ -40,7 +40,9 @@ namespace MainPro.DataModel
             /// 查找结束的时间
             /// </summary>
             public String ScanTime { set; get; }
-
+            /// <summary>
+            /// 是否被扫描过
+            /// </summary>
             public bool isScaned { set; get; }
 
             public ScanResult()
